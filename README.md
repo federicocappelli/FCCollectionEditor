@@ -1,9 +1,11 @@
 #FCCollectionEditor
 FCCollectionEditor view controller is a fast and ready to use recursive way to edit many Collection types provided by Foundation framework.
 
-Screenshots:
-![Screenshot 1](/FCCollectionEditorSample/Screenshots/screenshot1.png)
-![Screenshot 2](/FCCollectionEditorSample/Screenshots/screenshot2.png)
+## Screenshots:
+
+![Screenshot 1](https://github.com/federicocappelli/FCCollectionEditor/blob/master/FCCollectionEditorSample/Screenshots/screenshot1.png)
+
+![Screenshot 2](https://github.com/federicocappelli/FCCollectionEditor/blob/master/FCCollectionEditorSample/Screenshots/screenshot2.png)
 
 ## Foundation classes supported (+mutable versions):
  * NSArray
