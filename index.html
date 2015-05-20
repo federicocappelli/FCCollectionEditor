@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="FCCollectioneditor : The Collection editor view controller is a fast and ready to use recursive way to edit many Collection types provided by Foundation framework.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>FCCollectioneditor</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/federicocappelli/FCCollectionEditor">View on GitHub</a>
+
+          <h1 id="project_title">FCCollectioneditor</h1>
+          <h2 id="project_tagline">The Collection editor view controller is a fast and ready to use recursive way to edit many Collection types provided by Foundation framework.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/federicocappelli/FCCollectionEditor/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/federicocappelli/FCCollectionEditor/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="fccollectioneditor" class="anchor" href="#fccollectioneditor" aria-hidden="true"><span class="octicon octicon-link"></span></a>FCCollectionEditor</h1>
+
+<p>FCCollectionEditor view controller is a fast and ready to use recursive way to edit many Collection types provided by Foundation framework.</p>
+
+<h2>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots:</h2>
+
+<p><img src="https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot1.png?raw=true" alt="Screenshot 1" width="200"> <img src="https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot2.png?raw=true" alt="Screenshot 2" width="200"></p>
+
+<h2>
+<a id="foundation-classes-supported-mutable-versions" class="anchor" href="#foundation-classes-supported-mutable-versions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Foundation classes supported (+mutable versions):</h2>
+
+<ul>
+<li>NSArray</li>
+<li>NSDictionary</li>
+<li>NSSet</li>
+<li>NSNumber</li>
+<li>NSString</li>
+</ul>
+
+<p>Functions: edit and delete values</p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use:</h2>
+
+<p>Have a look to the <strong>FCCollectionEditorSample</strong> provided.</p>
+
+<h2>
+<a id="steps" class="anchor" href="#steps" aria-hidden="true"><span class="octicon octicon-link"></span></a>Steps</h2>
+
+<ol>
+<li>import "FCCollectionEditorViewController.h"</li>
+<li>Implement FCCollectionEditorDelegate</li>
+<li>Create and push the FCCollectionEditor</li>
+</ol>
+
+<pre><code>NSDictionary * dataModel = @{
+    @"Name":@"Federico Cappelli",
+    @"Age":@(31),
+    @"Boolean":@(YES),
+    @"A Dictionary" : @{@"key 1":@(1), @"Key 2":@"value 2"},
+    @"An Array" : @[@"A",@"B",@"C",@"D",@"E"],
+    @"A Set": [NSSet setWithObjects:@"Obj 1",@"Obj 2",@"Obj 3",@"Obj 4", nil] ,
+}
+
+FCCollectionEditorViewController * vc = [[FCCollectionEditorViewController alloc] init];
+[vc setDataModelObject:dataModel];
+vc.delegate = self;
+[self.navigationController pushViewController:vc animated:YES];
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">FCCollectioneditor maintained by <a href="https://github.com/federicocappelli">federicocappelli</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
