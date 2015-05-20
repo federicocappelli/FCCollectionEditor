@@ -3,9 +3,9 @@ FCCollectionEditor view controller is a fast and ready to use recursive way to e
 
 ## Screenshots:
 
-![Screenshot 1](https://github.com/federicocappelli/FCCollectionEditor/blob/master/FCCollectionEditorSample/Screenshots/screenshot1.png)
+![Screenshot 1](https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot1.png?raw=true)
 
-![Screenshot 2](https://github.com/federicocappelli/FCCollectionEditor/blob/master/FCCollectionEditorSample/Screenshots/screenshot2.png)
+![Screenshot 2](https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot2.png?raw=true)
 
 ## Foundation classes supported (+mutable versions):
  * NSArray
