@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F10123051B0CE41200591A61 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F10123041B0CE41200591A61 /* README.md */; };
 		F13CDBA71B0CA61D00219521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13CDBA61B0CA61D00219521 /* main.m */; };
 		F13CDBAA1B0CA61D00219521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13CDBA91B0CA61D00219521 /* AppDelegate.m */; };
 		F13CDBAD1B0CA61D00219521 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13CDBAC1B0CA61D00219521 /* ViewController.m */; };
@@ -31,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F10123041B0CE41200591A61 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F13CDBA11B0CA61D00219521 /* FCCollectionEditorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCCollectionEditorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13CDBA51B0CA61D00219521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F13CDBA61B0CA61D00219521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 		F13CDBA31B0CA61D00219521 /* FCCollectionEditorSample */ = {
 			isa = PBXGroup;
 			children = (
-				F10123041B0CE41200591A61 /* README.md */,
 				F13CDBA81B0CA61D00219521 /* AppDelegate.h */,
 				F13CDBA91B0CA61D00219521 /* AppDelegate.m */,
 				F13CDBAB1B0CA61D00219521 /* ViewController.h */,
@@ -252,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10123051B0CE41200591A61 /* README.md in Sources */,
 				F1EDF74B1B0CA64B008D109F /* FCCollectionEditorViewController.m in Sources */,
 				F13CDBAD1B0CA61D00219521 /* ViewController.m in Sources */,
 				F18EDDBB1B0CD80C00BC444C /* FCTableViewCell.m in Sources */,
