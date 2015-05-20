@@ -65,7 +65,7 @@
     }
 }
 
-#pragma mark - Private Table utilies
+#pragma mark - Private Table Utilities
 
 -(id)valueForIndex:(NSUInteger)index
 {
@@ -222,7 +222,8 @@
     return [self isCollection:object];
 }
 
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
     return YES;
 }
 
