@@ -3,9 +3,7 @@ FCCollectionEditor view controller is a fast and ready to use recursive way to e
 
 ## Screenshots:
 
-![Screenshot 1](https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot1.png?raw=true =250x)
-
-![Screenshot 2](https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot2.png?raw=true =250x)
+![Screenshot 1](https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot1.png?raw=true =200x)   ![Screenshot 2](https://github.com/federicocappelli/FCCollectionEditor/blob/master/Screenshots/screenshot2.png?raw=true =200x)
 
 ## Foundation classes supported (+mutable versions):
  * NSArray
@@ -21,11 +19,11 @@ Functions: edit and delete values
 Have a look to the **FCCollectionEditorSample** provided.
 
 ## Steps
- 1. #import "FCCollectionEditorViewController.h"
+ 1. import "FCCollectionEditorViewController.h"
  2. Implement FCCollectionEditorDelegate
  3. Create and push the FCCollectionEditor
 
-```Objective-c
+```
 NSDictionary * dataModel = @{
     @"Name":@"Federico Cappelli",
     @"Age":@(31),
