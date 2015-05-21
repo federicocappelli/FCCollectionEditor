@@ -38,3 +38,6 @@ FCCollectionEditorViewController * vc = [[FCCollectionEditorViewController alloc
 vc.delegate = self;
 [self.navigationController pushViewController:vc animated:YES];
 ```
+## TODO:
+- Add NSOrderedSet support
+- Implement edit capabilities for dictionary's keys
