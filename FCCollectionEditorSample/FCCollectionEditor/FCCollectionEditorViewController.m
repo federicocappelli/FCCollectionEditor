@@ -13,8 +13,8 @@
     NSArray * _keys;
 }
 
-@property(nonatomic, strong) id dataModelObjectOriginal;
-@property(nonatomic, strong) id dataModelObjectMutableCopy;
+@property(nonatomic, strong, readonly) id dataModelObjectOriginal;
+@property(nonatomic, strong, readonly) id dataModelObjectMutableCopy;
 
 @end
 
@@ -33,16 +33,10 @@
                                                                              action:@selector(editHandler:)];
 }
 
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [self.tableView reloadData];
-}
-
 -(void)setDataModelObject:(id)dataModelObject
 {
-    self.dataModelObjectMutableCopy = [dataModelObject mutableCopy];
-    self.dataModelObjectOriginal = dataModelObject;
+    _dataModelObjectMutableCopy = [dataModelObject mutableCopy];
+    _dataModelObjectOriginal = dataModelObject;
     [self configureData];
 }
 
